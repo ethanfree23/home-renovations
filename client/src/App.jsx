@@ -1,12 +1,22 @@
 import React from 'react';
-import './CSS/App.css';
- 
+import './styles/App.css';
+
+import HomePage from './Pages/HomePage.js'
+import AboutPage from './Pages/AboutPage.js'
+import ServicesPage from './Pages/ServicesPage.js'
+import WorkPage from './Pages/WorkPage.js'
+import ContactPage from './Pages/ContactPage.js'
+
 function App() {
   return (
-    <p>
-      Cleaned-up React App
-    </p>
+    <>
+      <HomePage />
+      <AboutPage />
+      <ServicesPage />
+      <WorkPage />
+      <ContactPage />
+    </>
   );
 }
- 
+
 export default App;
