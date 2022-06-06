@@ -13,7 +13,8 @@ import ContactPage from './Pages/ContactPage.js'
 function App() {
   return (
     <>
-      <NavBar /> <br />
+      <NavBar />
+      <br />
       <Routes>
 
         <Route path="/" element={<HomePage />} />
