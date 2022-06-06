@@ -17,13 +17,13 @@ function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/OurWork" exact activeClassName="active">
-                        Our Work
+                    <NavLink to="/Services" exact activeClassName="active">
+                        Services
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Services" exact activeClassName="active">
-                        Services
+                    <NavLink to="/OurWork" exact activeClassName="active">
+                        Our Work
                     </NavLink>
                 </li>
                 <li>
