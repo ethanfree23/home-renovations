@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './CSS/App.css';
  
 function App() {
   return (
     <p>
-      Cleanedup React App
+      Cleaned-up React App
     </p>
   );
 }
