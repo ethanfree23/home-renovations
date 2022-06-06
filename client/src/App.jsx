@@ -8,6 +8,7 @@ import HomePage from './Pages/HomePage.js'
 import AboutPage from './Pages/AboutPage.js'
 import ServicesPage from './Pages/ServicesPage.js'
 import WorkPage from './Pages/WorkPage.js'
+import Testimonials from './Pages/Testimonials.js'
 import ContactPage from './Pages/ContactPage.js'
 import Remodeling from './Pages/RemodelingServicesPage.js'
 import Electrical from './Pages/ElectricalServicesPage.js'
@@ -27,6 +28,8 @@ function App() {
         <Route path='/Services' element={<ServicesPage />} />
 
         <Route path="/OurWork" element={<WorkPage />} />
+
+        <Route path="/Testimonials" element={<Testimonials />} />
 
         <Route path="/ContactUs" element={<ContactPage />} />
 
