@@ -3,6 +3,7 @@ import './styles/App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 
+import NavBar from './Components/NavBar.js'
 import HomePage from './Pages/HomePage.js'
 import AboutPage from './Pages/AboutPage.js'
 import ServicesPage from './Pages/ServicesPage.js'
@@ -12,11 +13,20 @@ import ContactPage from './Pages/ContactPage.js'
 function App() {
   return (
     <>
-      <HomePage />
-      <AboutPage />
-      <ServicesPage />
-      <WorkPage />
-      <ContactPage />
+      <NavBar /> <br />
+      <Routes>
+
+        <Route path="/" element={<HomePage />} />
+
+        <Route path="/about" element={<AboutPage />} />
+
+        <Route path='/Services' element={<ServicesPage />} />
+
+        <Route path="/OurWork" element={<WorkPage />} />
+
+        <Route path="/ContactUs" element={<ContactPage />} />
+
+      </Routes>
     </>
   );
 }
