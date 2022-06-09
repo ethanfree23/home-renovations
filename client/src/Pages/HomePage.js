@@ -3,9 +3,9 @@ import React from 'react'
 function HomePage() {
     return (
         <>
-            <h1 className="text-3xl font-bold underline">
+            <h2 className="text-3xl font-bold underline">
                 Hello world!
-            </h1>
+            </h2>
             <div>
                 <h3>*Hero image*</h3>
             </div>
