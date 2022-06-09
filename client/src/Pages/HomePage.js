@@ -3,6 +3,9 @@ import React from 'react'
 function HomePage() {
     return (
         <>
+            <h1>
+                Hello world!
+            </h1>
             <div>
                 <h3>*Hero image*</h3>
             </div>
