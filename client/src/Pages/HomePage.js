@@ -3,14 +3,14 @@ import React from 'react'
 function HomePage() {
     return (
         <>
-            <h1>
+            <h1 className="text-3xl font-bold underline">
                 Hello world!
             </h1>
             <div>
                 <h3>*Hero image*</h3>
             </div>
             <div>
-                <h3>Why choose us</h3>
+                <h3 className="font-bold">Why choose us</h3>
                 <div>
                     <h5>Great Customer Serivce</h5>
                     <h7>Our team is committed to find the best solution to your problem.</h7>
