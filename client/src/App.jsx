@@ -16,49 +16,34 @@ import Plumbing from './Pages/PlumbingServicesPage.js'
 
 function App() {
   return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
-    </div>
+    <>
+      <NavBar />
+      <br />
+      <Routes>
+
+        <Route path="/" element={<HomePage />} />
+
+        <Route path="/Home" element={<HomePage />} />
+
+        <Route path="/AboutUs" element={<AboutPage />} />
+
+        <Route path='/Services' element={<ServicesPage />} />
+
+        <Route path="/OurWork" element={<WorkPage />} />
+
+        <Route path="/Testimonials" element={<Testimonials />} />
+
+        <Route path="/ContactUs" element={<ContactPage />} />
+
+        <Route path="/Services-Remodeling" element={<Remodeling />} />
+
+        <Route path="/Services-Electrical" element={<Electrical />} />
+
+        <Route path="/Services-Remodeling" element={<Plumbing />} />
+
+      </Routes>
+    </>
   );
 }
+
 export default App;
-
-
-// function App() {
-//   return (
-//     <>
-//       <NavBar />
-//       <br />
-//       <Routes>
-
-//         <Route path="/" element={<HomePage />} />
-
-//         <Route path="/Home" element={<HomePage />} />
-
-//         <Route path="/AboutUs" element={<AboutPage />} />
-
-//         <Route path='/Services' element={<ServicesPage />} />
-
-//         <Route path="/OurWork" element={<WorkPage />} />
-
-//         <Route path="/Testimonials" element={<Testimonials />} />
-
-//         <Route path="/ContactUs" element={<ContactPage />} />
-
-//         <Route path="/Services-Remodeling" element={<Remodeling />} />
-
-//         <Route path="/Services-Electrical" element={<Electrical />} />
-
-//         <Route path="/Services-Remodeling" element={<Plumbing />} />
-
-//       </Routes>
-//     </>
-//   );
-// }
-
-// export default App;
